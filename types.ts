@@ -18,12 +18,20 @@ export interface WindowState {
   content: ReactNode;
 }
 
+export interface ProjectLink {
+  label: string;
+  url: string;
+}
+
 export interface ProjectData {
   id: string;
   title: string;
   description: string;
   tech: string[];
-  color: string; // For card border/accent
+  image: string;
+  links?: ProjectLink[];
+  status: 'completed' | 'development';
+  color: string; 
 }
 
 export interface TimelineEvent {
