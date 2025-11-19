@@ -3,16 +3,18 @@ import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import { Stars, Float, TorusKnot, Icosahedron, Octahedron } from '@react-three/drei';
 import * as THREE from 'three';
 
-const FloatingObject = ({ 
+interface FloatingObjectProps {
+  position: [number, number, number];
+  color: string;
+  geometry: any;
+  scale?: number;
+}
+
+const FloatingObject: React.FC<FloatingObjectProps> = ({ 
   position, 
   color, 
   geometry: GeometryComponent, 
   scale = 1 
-}: { 
-  position: [number, number, number], 
-  color: string, 
-  geometry: any,
-  scale?: number
 }) => {
   const meshRef = useRef<THREE.Mesh>(null);
   const { mouse, viewport } = useThree();
