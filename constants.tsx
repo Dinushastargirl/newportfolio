@@ -293,7 +293,7 @@ export const PROJECTS: ProjectData[] = [
     title: "One Dial (Hardware)",
     description: "Currently building a hardware product called One Dial, which I am engineering from scratch to streamline communication.",
     tech: ["Hardware Engineering", "IoT", "Embedded Systems"],
-    image: "https://cdn.shopify.com/s/files/1/0653/9958/7054/files/c211e162-7e1e-44df-b11a-8cced6e9d1c0.png?v=1759365376", // Electronics
+    image: "https://images.unsplash.com/photo-1555664424-778a6902201b?q=80&w=1000&auto=format&fit=crop", // Electronics
     links: [],
     status: "development",
     color: "border-orange-600"
