@@ -5,7 +5,7 @@ import { ProjectData, TimelineEvent } from './types';
 // Using placeholders that you can replace with your actual assets
 export const USER_PORTRAIT_MAIN = "https://i.postimg.cc/nzwQT0cG/5.png"; 
 export const USER_PORTRAIT_SIDE = "https://i.postimg.cc/XNHgDkzn/1.png";
-export const DESKTOP_WALLPAPER = "https://i.postimg.cc/N0h6hgmq/55.png";
+export const DESKTOP_WALLPAPER = "https://i.postimg.cc/sg7npkmP/55-(1).png";
 
 export const CONTACT_INFO = {
   email: "dinushapushparajah@gmail.com",
