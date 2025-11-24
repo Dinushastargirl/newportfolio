@@ -27,10 +27,11 @@ export interface ProjectData {
   id: string;
   title: string;
   description: string;
+  story?: string; // Added for the detailed backstory
   tech: string[];
   image: string;
   links?: ProjectLink[];
-  status: 'completed' | 'development';
+  status: 'completed' | 'development' | 'highlight'; // Added highlight status
   color: string; 
 }
 

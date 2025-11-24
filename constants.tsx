@@ -96,6 +96,30 @@ export const PROJECTS_SUMMARY = `Every project in this portfolio was born from a
 
 export const PROJECTS: ProjectData[] = [
   {
+    id: "pickher",
+    title: "PickHer – Women-First Ride Service",
+    description: "PickHer is a safety-focused ride service created exclusively for women. For this project, I designed and developed a responsive website that communicates the platform’s purpose, booking process, and driver-verification system. My focus was on clarity, trust, and ease of use—ensuring users immediately understand the value of a women-led ride-hailing service. This project highlights my skills in user experience design, accessibility, clean layouts, and building trustworthy digital products.",
+    story: `Women often face real safety concerns when traveling alone—especially at night. I wanted to create a solution built around that reality. As someone who has experienced late-night travel that doesn’t always feel safe or affordable, I recognised the need for a ride service created by women, for women. Many existing ride platforms don’t fully address these concerns, and there are limited options where women can feel genuinely secure and understood.
+
+PickHer was designed to bridge that gap.
+The platform focuses on:
+
+Safe, women-only transportation for passengers who feel vulnerable during late-night trips.
+
+Verified female drivers, helping build trust and reduce fear of unsafe encounters.
+
+A simple, transparent booking flow, making it easy and affordable to secure a ride quickly.
+
+A clean, reassuring interface that feels welcoming rather than intimidating.
+
+By creating PickHer, my goal was to build a solution that empowers women to travel with confidence, comfort, and control—especially during moments where safety and cost become major concerns.`,
+    tech: ["React", "UX Design", "Responsive Web Design", "Accessibility"],
+    image: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=1000&auto=format&fit=crop", // Night travel / safety theme
+    links: [{ label: "Visit PickHer", url: "https://pick-her.vercel.app/" }],
+    status: "highlight",
+    color: "border-pink-500"
+  },
+  {
     id: "animal-vision",
     title: "Animal Vision Camera",
     description: "A creative campaign required a unique interactive experience to visualize “different perspectives.” I built an animal-vision simulator that uses camera input + pixel manipulation to recreate how cats, snakes, bees, and birds see.",
